@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2FÁcil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(90deg, #001F3F, #007BFF); /* Degradê de azul escuro para azul claro */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+      
+            
+      
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('./src/imagens/hero.jpeg') no-repeat center center/cover; /* Tamanho recomendado: 1920x1080 pixels */
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin: 0 0 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero a {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .features .feature {
+            margin: 20px;
+            max-width: 300px;
+        }
+
+        .features img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px; /* Tamanho recomendado: 300x300 a 500x500 pixels */
+        }
+
+        .team {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .team .member {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .team img {
+            border-radius: 50%;
+            width: 150px; /* Tamanho recomendado: 150x150 a 200x200 pixels */
+            height: 150px; /* Tamanho recomendado: 150x150 a 200x200 pixels */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .contact-form button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        #h4{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="./src/imagens/logo.png"></h1>
+        <nav>
+            <ul>
+                <li><a href="#o-que-buscamos">O que Buscamos</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Facilitamos seu acesso ao Eproc com segurança e sem complicações!</h2>
+        <p>2FÁcil: A solução ideal de 2FA web para advogados e escritórios de advocacia.</p>
+        <a href="#o-que-buscamos">Saiba Mais</a>
+    </div>
+
+    <section id="o-que-buscamos">
+        <h3>Quem somos</h3>
+        <section id="quem-somos">
+            <p>Na 2FÁcil, acreditamos que a tecnologia deve trabalhar a favor da praticidade e segurança. Somos uma empresa inovadora que nasceu ao identificar uma necessidade essencial no dia a dia dos advogados e escritórios de advocacia: simplificar o acesso ao sistema eProc.</p>
+        </section>
+        <section id="quem-somos">
+            <h3 id="h4">O que Buscamos</h3>
+            <p>Nossa missão é facilitar sua rotina e garantir uma experiência de acesso eficiente e segura. Desenvolvemos uma solução de autenticação em dois fatores (2FA) totalmente web, que elimina a dependência de dispositivos móveis. Com a 2FÁcil, você pode acessar o eProc de qualquer lugar, a qualquer momento, com agilidade e confiabilidade.</p>
+            <p>Estamos comprometidos em transformar a forma como os advogados interagem com a tecnologia, tornando o acesso ao eProc mais prático do que nunca.</p>
+            </section>
+        
+        <div class="features">
+            <div class="feature">
+                <img src="./src/imagens/seguranca.jpeg" alt="Segurança"> <!-- Tamanho recomendado: 300x300 a 500x500 pixels -->
+                <h4>Segurança</h4>
+                <p>Garantimos autenticação robusta sem comprometer sua privacidade.</p>
+            </div>
+            <div class="feature">
+                <img src="./src/imagens/praticidade.jpeg" alt="Praticidade"> <!-- Tamanho recomendado: 300x300 a 500x500 pixels -->
+                <h4>Praticidade</h4>
+                <p>Acesse o eProc de qualquer lugar, sem necessidade de dispositivos extras.</p>
+            </div>
+            <div class="feature">
+                <img src="./src/imagens/eficiencia.jpeg" alt="Eficiência"> <!-- Tamanho recomendado: 300x300 a 500x500 pixels -->
+                <h4>Eficiência</h4>
+                <p>Reduza o tempo gasto com autenticações complicadas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-nos">
+        <h3>Sobre Nós</h3>
+        <div class="team">
+            <div class="member">
+                <img src="./src/imagens/assis.PNG" alt="Membro 1"> <!-- Tamanho recomendado: 150x150 a 200x200 pixels -->
+                <h4>Assis</h4>
+                <p>Desenvolvedor.</p>
+            </div>
+            <div class="member">
+                <img src="./src/imagens/cris.PNG" alt="Membro 2"> <!-- Tamanho recomendado: 150x150 a 200x200 pixels -->
+                <h4>Cristian</h4>
+                <p>Desenvolvedor.</p>
+            </div>
+            <div class="member">
+                <img src="./src/imagens/vetor.PNG" alt="Membro 3"> <!-- Tamanho recomendado: 150x150 a 200x200 pixels -->
+                <h4>Vitor</h4>
+                <p>Marketing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h3>Entre em Contato</h3>
+        <form class="contact-form">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="infra.2facil@gmail.com" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 2FÁcil. Todos os direitos reservados. <a href="#">Política de Privacidade</a></p>
+    </footer>
+</body>
+</html>
